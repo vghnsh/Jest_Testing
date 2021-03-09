@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './Components/Counter';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is basic Test</h1>
-      <button id="btn">Counter</button>
+      <h2>This is basic Test</h2>
+      <Counter/>
+      <Footer/>
     </div>
   );
 }
